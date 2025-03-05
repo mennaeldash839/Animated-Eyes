@@ -1,0 +1,81 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    height: 100svh;
+    width: 100svw;
+}
+.main{
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    color: white;
+    font-size: 30px;
+    text-align: center; padding: 10px;
+    
+}
+.two{
+   
+        display: flex;
+        justify-content: center; 
+        align-items: center;     
+        height: 100%;
+    
+}
+.sq{
+    background-color: antiquewhite;
+    height: 500px;
+    width: 400px;
+    border-radius:50px;
+    margin-top: 50px;
+    margin: 20px;
+    display: flex;
+    
+    
+}
+.sq2{
+    background-color: antiquewhite;
+    height: 500px;
+    width: 400px;
+    border-radius: 50px;
+    margin-top: 50px;
+    margin: 20px;
+    display: flex;
+    
+
+}
+.in-sq {
+    background-color: black;
+    height: 200px;
+    width: 150px;
+    margin: 40px; 
+    justify-content: center; 
+     align-items: center;  
+    margin-top: 50px; 
+    border-radius: 70px;
+    animation-duration: 1s;
+    animation-name: move;
+    animation-timing-function: linear;
+   animation-direction: normal;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: backwards;
+
+
+}
+@keyframes move{
+    0%{
+        transform: translate(0px,0px) ;
+    }
+    
+    50%{
+        transform: translate(90px,0px);
+       
+    }
+    
+    100%{
+        transform: translate(0px,0px);
+      
+    }
+}
